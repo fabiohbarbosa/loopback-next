@@ -620,8 +620,8 @@ children:
   url: apidocs.index.html
   output: 'web, pdf'
 
-- title: 'For LoopBack 3.x users'
-  url: LoopBack-3.x.html
+- title: 'Migration guide'
+  url: 'migration-overview.html'
   output: 'web, pdf'
   children:
 
@@ -629,8 +629,61 @@ children:
     url: Understanding-the-differences.html
     output: 'web, pdf'
 
-  - title: 'Migrating from LoopBack 3'
-    url: Migrating-from-LoopBack-3.html
+  - title: 'Mounting a LoopBack 3 application'
+    url: migration-mounting-lb3app.html
+    output: 'web, pdf'
+
+  - title: 'Migrating datasources'
+    url: migration-datasources.html
+    output: 'web, pdf'
+
+  - title: 'Migrating Express middleware'
+    url: migration-express-middleware.html
+    output: 'web, pdf'
+
+  - title: 'Migrating models'
+    url: migration-models-overview.html
+    output: 'web, pdf'
+    children:
+
+    - title: 'Model definitions and built-in APIs'
+      url: migration-models-core.html
+      output: 'web, pdf'
+
+    - title: 'Relations'
+      url: migration-models-relations.html
+      output: 'web, pdf'
+
+    - title: 'Custom methods'
+      url: migration-models-methods.html
+      output: 'web, pdf'
+
+    - title: 'Remoting hooks'
+      url: migration-models-remoting-hooks.html
+      output: 'web, pdf'
+
+    - title: 'CRUD operation hooks'
+      url: migration-models-operation-hooks.html
+      output: 'web, pdf'
+
+    - title: 'Mixins'
+      url: migration-models-mixins.html
+      output: 'web, pdf'
+
+  - title: 'Boot scripts'
+    url: migration-boot-scripts.html
+    output: 'web, pdf'
+
+  - title: 'Authentication & authorization'
+    url: migration-authentication-authorization.html
+    output: 'web, pdf'
+
+  - title: 'Components and extensions'
+    url: migration-extensions.html
+    output: 'web, pdf'
+
+  - title: 'Clients (API consumers)'
+    url: migration-clients.html
     output: 'web, pdf'
 
 - title: 'Best practices'

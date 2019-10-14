@@ -1,9 +1,9 @@
 ---
 lang: en
-title: 'Migrating from LoopBack 3'
-keywords: LoopBack 4.0, LoopBack 4, LoopBack 3
+title: 'Mounting a LoopBack 3 application'
+keywords: LoopBack 4.0, LoopBack 4, LoopBack 3, Migration
 sidebar: lb4_sidebar
-permalink: /doc/en/lb4/Migrating-from-LoopBack-3.html
+permalink: /doc/en/lb4/migration-mounting-lb3app.html
 ---
 
 For current LoopBack 3 users who want to migrate to LoopBack 4, LoopBack 4
