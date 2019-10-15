@@ -625,7 +625,7 @@ children:
   output: 'web, pdf'
   children:
 
-  - title: 'Understanding the differences between LoopBack 3 and LoopBack 4'
+  - title: 'Understanding the differences'
     url: Understanding-the-differences.html
     output: 'web, pdf'
 
@@ -633,11 +633,11 @@ children:
     url: migration-mounting-lb3app.html
     output: 'web, pdf'
 
-  - title: 'Migrating datasources'
+  - title: 'Datasources'
     url: migration-datasources.html
     output: 'web, pdf'
 
-  - title: 'Migrating Express middleware'
+  - title: 'Express middleware'
     url: migration-express-middleware.html
     output: 'web, pdf'
 
@@ -675,8 +675,21 @@ children:
     output: 'web, pdf'
 
   - title: 'Authentication & authorization'
-    url: migration-authentication-authorization.html
+    url: migration-auth-overview.html
     output: 'web, pdf'
+    children:
+
+    - title: 'Built-in models'
+      url: migration-auth-built-in.html
+      output: 'web, pdf'
+
+    - title: 'Passport'
+      url: migration-auth-passport.html
+      output: 'web, pdf'
+
+    - title: 'OAuth2 Provider'
+      url: migration-auth-oauth2.html
+      output: 'web, pdf'
 
   - title: 'Components and extensions'
     url: migration-extensions.html

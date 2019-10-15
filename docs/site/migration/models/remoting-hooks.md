@@ -13,4 +13,4 @@ TODO: Explain how to migrate remoting hooks to LB4 interceptors.
 - Method-level hooks, e.g. `User.beforeRemote('create', handlerFn)`
 
 Explain how to map properties provided by LB3 remoting context to LB4 concepts
-and how to access those data via Dependency Injection.
+and how to access that data via Dependency Injection.
