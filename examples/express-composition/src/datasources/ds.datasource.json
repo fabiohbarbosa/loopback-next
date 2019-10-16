@@ -1,6 +1,5 @@
 {
-  "name": "ds",
-  "connector": "memory",
-  "localStorage": "",
-  "file": "./data/ds.json"
+  "name": "mongodb",
+  "connector": "mongodb",
+  "url": "mongodb://127.0.0.1:27017/purpose",
 }

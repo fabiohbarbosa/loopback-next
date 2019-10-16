@@ -14,7 +14,7 @@
     "node": ">=8.9"
   },
   "scripts": {
-    "build": "lb-tsc",
+    "build": "npm run clean && lb-tsc",
     "build:watch": "lb-tsc --watch",
     "clean": "lb-clean *example-express-composition*.tgz dist tsconfig.build.tsbuildinfo package",
     "lint": "npm run prettier:check && npm run eslint",
@@ -26,6 +26,7 @@
     "eslint:fix": "npm run eslint -- --fix",
     "pretest": "npm run clean && npm run build",
     "test": "lb-mocha \"dist/__tests__/**/*.js\"",
+    "test:issue": "npm run build && lb-mocha \"dist/__tests__/acceptance/controllers/purpose.controller.acceptance.js\"",
     "posttest": "npm run lint",
     "test:dev": "lb-mocha --allow-console-logs dist/__tests__/**/*.js && npm run posttest",
     "migrate": "node ./dist/migrate",
@@ -52,6 +53,7 @@
     "@loopback/rest-explorer": "^1.4.2",
     "@loopback/service-proxy": "^1.3.9",
     "express": "^4.17.1",
+    "loopback-connector-mongodb": "^5.0.1",
     "p-event": "^4.1.0"
   },
   "devDependencies": {
